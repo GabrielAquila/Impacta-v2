@@ -1,0 +1,545 @@
+Questões AWS
+--=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- 
+--=X=-- Módulo 1
+--=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- 
+1.Quais são as vantagens da computação em núvem em ralação à computação on-premisses?
+	Evitar grandes compras de capital
+	Usar capacidade sob demanda
+	Ter alcance global em minutos
+	Aumentar a velocidade e agilidade
+	*Todas as opções anteriores
+2.Qual é o modelo de definição de preço que permite que os clientes da AWS paguem pelos recursos conforme necessário?
+	Pague à medida que você desativar
+	*Pague conforme o uso
+	Pague conforme a compra
+	Pague conforme a reserva
+3. Qual destes Não é um modelo de implantação em núvem?
+	Plataforma como um serviço
+	Infraestrutura como serviço
+	*Administração do sistema como um serviço
+	Software como um serviço
+4. A prioridade e a manutenção do hardware conectado à rede necessário para serviços de aplicaçãoes são da AWS. Você provisiona e usa o que precisa.
+	*Verdadeiro
+	Falso
+5. Qual destes Não é um benefício da computação em nuvem em vez da computação on-premisses ?
+	Aumentar a velocidade e a agilidade
+	*Pagar pelo armazenamento em rack, empilhamento e alimenação de servidores
+	Eliminar as suposições ao determinar sua necessidade de capacidade de infraestrutura
+	Trocar despesas de capital por despesas variáveis.
+	Beneficiar-se de economias de escala massivas
+6. Quais das seguintes opções Não são benefícios da computação em nuvem AWS?
+	*Vários ciclos de aquisição
+	Alta disponibilidade
+	*Alta Latência
+	Recursos temporários e descartáveis
+	Bancos de Dados tolerantes à falhas.
+7. Qual das opções a seguir é um serviço de computação ?
+	Amazon VPC
+	Amazon S3
+	*Amazon EC2
+	Amazon Cloudfront
+	Amazon Redshift
+8. A computação em nuvem oferece uma forma simples de acessar servidores, armazenamento, bancos de dados e um comjunto amplo de serviços de aplicações pela internet.
+   Você é o proprietário do hardware conectado à rede necessários para esses serviços e a Amazon Web Services provisiona o que você precisa.
+	Verdadeiro
+	*Falso.
+9. Economias de escala resultam de ______
+	ter muitos provedores de nuvem diferentes
+	*ter centenas de milhares de clientes agregados na nuvem
+	ter centenas de serviços em nuvem disponíveis pela internet
+	ter que investir pesadamente em datacenters e servidores.
+10. Quais destas são maneiras de acessar os principais serviços da AWS ?
+	Chamadas para suporte técnico
+	AWS Marketplace
+	*Console de Gerenciamento da AWS
+	*Interface da linha de comando da AWS ( ILC da AWS )
+	*Kits de desenvolvimento de software (SDKs)
+--=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- 
+--=X=-- Módulo 2
+--=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- 
+1. Para determinados serviços, como o Aamazon Elastic Compute Cloud ( Amazon EC2) e o Amazon Relational Database Service ( Amazon RDS ), você pode investir em capacidade reservada.
+Quais opções estão disponíveis para instâncias reservadas ?
+	*AURI -- All Upfront Reserved Instance
+	MURI
+	*NURI -- No Upfront Reserved Instance
+	*PURI -- Partial Upfront Reserved Instance
+	DURI
+2. O que um cliente pode acessar para obter mais detalhes sobre a atividade de faturamento do Amazon Elastic Compute Cloud ( Amazon EC2) que ocorreu há 3 meses ?
+	Painel do Amazon EC2
+	*AWS Cost Explorer
+	Painel do AWS Trusted Advisor
+	Logs do AWS CloudTrail armazenados no Amazon Simple Storage Service ( Amazon S3 )
+3. Para receber a taxa de desconto associada às instancias reservadas, você deve fazer um pagamento adiantado completo pelo período de vigência do contrato.
+	Verdadeiro
+	*Falso
+4. Em quais das seguintes opções não há cobrança?
+	Computação
+	Armazenamento
+	*Transferência de dados de entrada ( com algumas exceções )
+	Transferência de dados de saída
+	*Transferência de dados entre serviços dentro da mesma região da AWS
+5. Quais são os quatro plano de suporte oferecidos pelo AWS Support?
+	*Basic, Developer, Business, Enterprise
+	Basic, Startup, Business, Enterprise
+	Free, Bronze, Silver, Gold
+	Todo o suporte é gratuito
+6. Qual ferramenta da AWS permite explorar os serviços da AWS e criar uma estimativa para o custo de seus casos de uso na AWS?
+	*Calculadura de preços da AWS
+	Orçamento da AWS
+	Relatório de custos e uso da AWS
+	Painel de faturamento da AWS
+7. À medida que a AWS cresce, o custo de fazer negócios é reduzido, e as economias são repassadas para o cliente por meio de preços mais baixos.
+Como é chamada essa otimização?
+	Visibilidade de gastos
+	*Economia de escala
+	Correspondência entre oferta e demanda
+	Dimensionamento correto do EC2
+8. A AWS oferece diversos serviços gratuitamente, como Amazon Virtual Cloud, AWS Identity and Access Management, faturamento consolidado, AWS Elastic Beanstalk, dimensionamento automático, AWS opsWorks e AWS cloudFormation.
+No entando, você pode ser cobrado por outros serviços da AWS usaods em conjunto com esses serviços.
+	*Verdadeiro
+	Falso
+9. Quando as transferências gratuitas de dados são aplicáveis na AWS ?
+	Transferência gratuita de dados de entrada em todos os serviços da AWS em todas as regiões
+	Transferência gratuita de dados de saída em todos os serviços da AWS em todas as regiões
+	*Transferência gratuita de dados de entrada para instâncias do Amazon Elastic Compute Cloud ( Amazon EC2 ) 
+	*Transferência gratuita de dados de saída entre serviços da AWS dentro da mesma região
+10. Os Serviços ilimitados estão disponíveis com o nível gratuito da AWS para novos clientes por 12 meses após a data de cadastro na AWS
+	Verdadeiro
+	*Falso
+--=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- 
+--=X=-- Módulo 3
+--=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- 
+1. Qual componente da infraestrutura global da AWS o Amazon CloudFront usa para garantir a entrega de baixa latência ?
+	Regiões da AWS
+	*Pontos de presença da AWS
+	Zonas de Disponibilidade da AWS
+	Amazon Virtual Private Cloud ( Amazon VPC )
+2. Você pode executar aplicações e workloads de uma região mais próxima dos usuários finais para ____ a lat~encia.
+	aumentar
+	*diminuir
+3. Redes, armazenamento, computação e bancos de dados são exemplos de categorias de serviços qua a AWS oferece.
+	*Verdadeiro
+	Falso
+4. Quais das seguintes são áreas geográficas que hospedam duas ou mais zonas de disponibilidade ?	
+	Origens da AWS
+	*Regiões da AWS
+	Zonas de Computação
+	Pontos de presença.
+5. _____ Significa que a infraestrutura tem redundância de componentes integrada. 
+_____ significa que os recuros se ajustam dinamicamente para aumentos ou diminuições nos requisitos de capacidade.
+	Sem intervenção humana, tolerante a falhas.
+	Elático e escalável, sem intervenção humana.
+	*Tolerante a falhas, elastico e escalável.
+	Tolerante a falhas, sem intervenção humana.
+	Elástico e escalável, tolerante a falhas.
+6. As zonas de disponibilidade dentro de uma região são conectadas por meio de links de baixa latência.
+	*Verdadeiro
+	Falso
+7. Qual dessas afirmações sobre zonas de disponibilidade não é verdadeira ?
+	As Zonas de disponibilidade são projetadas para isolamento de falhas.
+	As Zonas de disponibilidade são compostas por um ou mais datacenters.
+	*Um datacenter pode ser usado para mais de uma zona de disponibilidade
+	As Zonas de disponibiliadde são conectadas umas ás outras usando links privados de alta velocidade.
+8. O que é verdadeiro sobre as regiões ?
+	Todas as regiões estão localizadas em uma área geográfica específica.
+	*Uma região é um local físico que tem várias zonas de disponibilidade
+	Elas são localizações físicas dos seus clientes.
+	*Cada região está localizada em uma área geográfica separada.
+9. O provisionamento de recursos de computação em _____ zonas(s) de disponibilidade é altamente recomendado pela AWS.
+	todas as 
+	nenhuma 
+	*várias
+	uma única
+10. Os pontos de presença só estão localizados na mesma área geral que as regiões
+	Verdadeiro
+	*Falso
+--=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- 
+--=X=-- Módulo 4
+--=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- 
+1. No modelo de responsabilidade compartilhada, a AWS é responsável 
+	*Segurança da nuvem
+	Segurança à nuvem
+	Segurança para a nuvem
+	Segurança na nuvem
+2. No modelo de responsabilidade compartilhada, quais das opções a seguir são exemplos de "segurança na nuvem".
+	Conformidade com padrões e regulamentos de segurança da computação
+	Segurança física das instalações em que os serviços operam
+	*Configurações do grupo de segurança
+	*Criptografia de dados ociosos e dados em trânsito
+	Proteção da infraestrutura global.
+3. Qual das seguintes opções é responsabilidade da AWS de acordo com o modelo de responsabilidade compartilhada da AWS ?
+	Configuração de aplicações de terceiros
+	*Manutenção de hardware físico
+	Acesso e dados de aplicações de segurança
+	Gerenciamento de imagens de máquina da Amazon ( AMIs) personalizadas
+4. Ao criar uma política do AWS Identity and Access Management (IAM), quais são os dois tipos de acesso que podem ser concedidos a um usuário ?
+	Acesso instituicional
+	Acesso autorizado
+	*Acesso programático
+	*Acesso ao Console de Gerenciamento da AWS
+	Acesso raiz administrativo
+5. O AWS Organizations permite consolidar várias contas da AWS para você as gerencie de maneira centralizada.
+	*Verdadeiro
+	Falso
+6. Quais das seguintes opções são melhores práticas para proteger sua conta usando o AWS Identity and Access Management (IAM) ?
+	Fornecer aos usuários privilégios administrativos padrão.
+	Deixar credenciais e usuários não utilizados e desnecessários em vigor.
+	*Gerenciar o acesso aos recuros da AWS.
+	Evitar o uso de grupos do IAM para conceder as mesmas permissões de acesso a vários usuários.
+	*Definir direitos de acesso refinados.
+7. Qual das seguintes ações deve ser tomada pelo usuário raiz da conta da AWS ?
+	Acesso seguro para aplicações
+	Integrar a outros serviços da AWS
+	Alterar permissões granulares
+	*Alterar o plano do AWS Support
+8. Após o login inicial, o que se recomenda como melhor prática para o usuário raiz da conta da AWS ?
+	Excluir o usuário raiz da conta da AWS
+	Revogar todas as permissões no usuário raiz da conta da AWS
+	restringir a permissão no usuário raiz da conta da AWS
+	*Excluir as chaves de acesso do usuário raiz da conta da AWS
+9. Como um administrador de sistema incluiria uma camada adicional de segurança de login ao Console de Gerenciamento da AWS de um usuário ?
+	Usar o Amazon Cloud Directory
+	Auditor funções do AWS Identity and Access Management ( IAM)
+	*Habilitar autenticação multifator
+	Habilitar o AWS CloudTrail
+10. O AWS Key Management System ( AWS KMS ) permite acessar, auditar e avaliar as configurações dos recursos da AWS.
+	Verdadeiro
+	*Falso
+--=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- 
+--=X=-- Módulo 5
+--=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- 
+1. Com o Amazon Virtual Private CLoud ( Amazon VPC ), qual a menor sub-rede que você pode ter em uma VPC?
+	/26
+	/30
+	/24			2^(32-24) = 256 = 0.0.0.*
+	*/28		2^(32-28) = 16 IPs = 0.0.0.0-15
+2. Com o Amazon Virtual Private Cloud ( Amazon VPC ), qual é o maior intervalo de endereços IP que você pode ter em uma VPC ?
+	/30
+	/28
+	/24
+	*/16		2^(32-16) = 0.0.*.*	= 65536 IPs
+3. Você precisa permitir que os recuros em uma sub-rede privada acessem a internet.
+Qual das opções a seguir deve estar presente para permitir esse acesso?
+	Tabela de rotas
+	Grupos de segurança
+	*Gateway NAT
+	Listas de controle de acesso de rede
+4. Qual serviço de rede da AWS permite que uma empresa crie uma rede virtual dentro da AWS ?
+	*Amazon Virtual Private Cloud ( Amazon VPC )
+	Amazon Route 53
+	AWS Config
+	AWS Direct Connect
+5. Sub-redes privadas tem acesso direto à internet?
+	Verdadeiro
+	*Falso
+6. Qual componente da infraestrutura global da AWS o Amazon CloudFront usa para garantir a entrega de baixa latência ?
+	*Pontos de presença da AWS
+	Regiões da AWS
+	Amazon Virtual Private Cloud ( Amazon VPC )
+	Zonas de disponibilidade da AWS
+7. Qual das opções a seguir é um controle de segurança opcional que pode ser aplicado na camada de sub-rede de uma VPC ?
+	Grupo de segurança
+	*Network ACL -- Network Access Control List ( https://www.geeksforgeeks.org/difference-between-security-group-and-network-acl-in-aws/ ) 
+	Firewall de aplicativos web
+	Firewall
+8. O que acontece quando você usa o Amazon Virtual Private Cloud (Amazon VPC) para criar uma nova VPC ?
+	Três sub-redes são criadas por padrão: uma para cada zona de disponibilidade
+	Três sub-redes são criadas por padrão em uma zona de disponibilidade
+	Um gateway de internet é criado por padrão
+	*Uma tabela de rotas principal é criada por padrão
+9. Qual das opções a seguir pode ser usada para proteger instâncias do Amazon Elastic Compute Cloud (Amazon EC2) hospedadas na AWS?
+	Gateway da internet
+	*Grupo de segurança
+	todas as opções anteriores
+	AMI
+10. Você é um arquiteto de soluções que trabalha em uma grande empresa de varejo que está migrando a infraestrutura existente para a AWS.
+Você recomenda que eles usem uma VPC personalizada. 
+Ao criar a uma VPC, você atribui a um bloco de roteamento entre domínios sem classe (CIDR) ipv4 10.0.1.0/24 (que tem um total de 256 endereços IP).
+Quantos endereços IP estão disponíveis?
+	*251	5 reservados por padrão ( +1 extra com NAT gateway )
+	250
+	246
+	256
+--=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- 
+--=X=-- Módulo 6
+--=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- 
+1. Por que a AWS é mais econômica do que datacenters tradicionais para aplicações com workloads de computação variáveis ?
+	Os custos do Amazon EC2 são cobrados mensalmente.
+	Os clientes mantêm o acesso administrativo completo às instâncias do Amazon EC2 deles.
+	Os clientes podem executar instâncias suficientes permanentemente para lidar com picos de carga de trabalho.
+	*As instâncias do Amazon EC2 podem ser executadas sob demanda quando necessário.
+2. Se o seu projeto exigir relatórios mensais que percorram quantidades muito grandes de dados, qual opção de compra do Amazon Elastic Compute Cloud ( Amazon EC2) você deve considerar ?
+	Instâncias SPOT
+	*Instâncias reservadas programadas
+	Hosts Dedicados
+	Instâncias sob demanda.
+3. O que está incluído em uma imagem de máquina da Amazon (AMI) ?
+	Um modelo para o volume raiz da Instância.
+	Execução de permissões que controlam quais contas da AWS podem usar a AMI para executar instâncias.
+	Um mapeamento de dispositivos de blocos que especifica os volumes a serem anexados à instância quando ela é executada.
+	*Todas as opções anteriores.
+4. Qual recurso do Amazon Elastic Compute Cloud (Amazon EC2) garante que suas instâncias não compartilhem um host físico entre instâncias de qualquer outro cliente da AWS ?
+	Amazon VPC
+	Grupos de posicionamento
+	*Instâncias dedicadas
+	Instâncias reservadas
+5. Qual das opções a seguir é um serviço de computação sem servidor na AWS?
+	AWS Config
+	*AWS Lambda
+	AWS OpsWorks
+	Amazon EC2
+6. Qual é o serviço fornecido pela AWS que permite que os desenvolvedores implantem e gerenciem facilmente aplicações na nuvem ?
+	Amazon Elastic Container Service
+	*AWS Elastic Beanstalk
+	AWS Opswork
+	AWS CloudFormation
+7. Sua aplicação WEB precisa de quatro instâncias para oferecer suporte a tráfego o tempo todo.
+No último dia do mês, o tráfego triplica. Qual é a maneira mais econômica de lidar com esse padrão ?
+	Execute 12 instâncias reservadas o tempo todo.
+	Execute quatro instâncias sob demanda constantemente e adicione mais oito instâncias sob demanda no último dia de cada mês.
+	*Execute quatro instâncias reservadas constantemente e adicione mais oito instâncias sob demanda no último dia de cada mês.
+	Execute quatro instâncias sob demanda constantemente e adicione mais oito instâncias reservadas no último dia de cada mês.
+8. Os containers contêm um sistema operacional inteiro.
+	Verdadeiro
+	*Falso
+9. Qual opção do Amazon EC2 é a melhor para workloads de longo prazo com padrões de uso previsíveis ?
+	Instâncias SPOT
+	Instâncias sob demanda
+	*Instâncias reservadas
+10. Qual das opções a seguir deve ser espeficicada ao iniciar uma nova instância Windows do Elastic Compute Cloud ( Amazon EC2 ) ?
+	*Imagem de máquina da Amazon (AMI)
+	Senha da conta de administrador
+	ID da instância do Amazon EC2
+	*Tipo de instância do Amazon EC2
+--=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- 
+--=X=-- Módulo 7
+--=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- 
+1. O Amazon Simple Storage Service (Amazon S3) é um armazenamento de objetos adequado para o armazenamento de arquivos simples, como documentos do Microsoft Word, fotos, etc.
+	*Verdadeiro
+	Falso
+2. O Amazon S3 replica todos os objetos _____.
+	em vários volumes dentro de uma zona de disponibilidade.
+	*em várias zonas de disponibilidade na mesma região.
+	entre várias regiões para maior durabilidade.
+	em vários buckets do S3.
+3. Qual das opções a seguir pode ser usada como uma classe de armazenamento para uma política de ciclo de vida de objetos do S3 ?
+	*S3 - Acesso Padrão
+	AWS Storage Gateway
+	*S3 - Acesso infrequente
+	*Simple Storage Service Glacier
+	S3 - Armazenamento de redundância reduzida
+	Amazon Dynamo DB
+4. O nome de um bucket do S3 deve ser exclusivo ______.
+	*em todo o mundo e em todas as contas das AWS.
+	dentro de uma região.
+	em todas as suas contas da AWS.
+	em sua conta da AWS.
+5. Você pode usar o Amazon Elastic File System (Amazon EFS) para:
+	Fornecer armazenamento de arquivos simples, escalável e elástico para uso apenas na AWS.
+	*Implementar armazenamento para instâncias do Amazon EC2 que várias máquinas virtuais podem acessar ao mesmo tempo.
+	Hospedar uma CDN robusta para entregar sites inteiros com contéudo dinâmico estático e de streaming.
+	Gerar conteúdo específico do usuário.
+6. O Amazon Elastic Block Store (Amazon EBS) é recomendado quando os dados _____ e _____.
+	requerem armazenamento no nível do objeto
+	*devem ficar rapidatamente acessíveis, exigindo persistência de longo prazo.
+	*requerem uma solução de criptografia.
+	precisam ser armazenados em uma zona de disponibilidade diferente daquela em que a instância do EC2 está.
+7. Por padrão, todos os dados armazenados no Amazon S3 podem ser visualizados pelo público.
+	Verdadeiro
+	*Falso
+8. Em relação ao Amazon S3 Glacier, o que é um cofre ?
+	As regras que determinam quem pode ( ou não ) acessar arquivos
+	Um objeto (fotos, vídeos, arquivos ou documentos).
+	*Um contêiner para armazenar arquivos.
+	Uma política que identifica quem pode acessar o conteúdo armazenado no Glacier.
+9. Quando você cria um bucket no Amazon S3, ele é associado a uma região espefícica da AWS.
+	*Verdadeiro
+	Falso
+10. Quais das opções a seguir são recursos do Amazon Elastic Block Store (Amazon EBS) ?
+	Os dados do Amazon EBS são copiados automaticamente em fita.
+	*Os volumes do Amazon EBS podem ser criptografados de forma transparente para workloads na instância anexada.
+	Os dados em um volume do Amazon EBS são perdidos quando a instância anexada é interrompida.
+	*Os dados armazenados no Amazon EBS são replicados automaticamente dentro de uma zona de disponibilidade.
+--=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- 
+--=X=-- Módulo 8
+--=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- 
+1. Você está projetando uma aplicação Web de comércio eletrônico que escalará para centenas de milhares de usuários simultâneos.
+Qual tecnologia de banco de dados é mais adequada para manter o estado da sessão neste exemplo ?
+	Amazon Relational Database Service ( Amazon RDS )
+	*Amazon DynamoDB --destaque para manter apenas o "estado da sessão"
+	Amazon RedShift
+	Amazon Simple Storage Service (Amazon S3)
+2. Você precisa encontrar um item em uma tabela do Amazon DynamoDB usando um atributo diferente de chave primária do Item.
+Qual das seguintes operações você deve usar ?
+	PutItem
+	*Scan --opção de verificação
+	Query
+	GetItem
+3. No Amazon DynamoDB, o que a operação de consulta permite que você faça ?
+	Consultar uma tabela usando a chave de pertição e um filtro de chave de classificação opcional
+	Consultar todos os índices secundários existentes para uma tabela
+	Recuperar itens de uma tabela ou índice secundário com eficiência
+	*Todas as opções anteriores
+4. Qual serviço da Nuvem AWS é mais adequado para analisar seus dados usando linguagem de consulta estrutura(SQL) padrão e suas ferramentas de inteligência de negócias (BI) existentes ?
+	Amazon Relational Database Service ( Amazon RDS )
+	Amazon Simple Storage Service (Amazon S3)
+	Amazon DynamoDB
+	*Amazon RedShift --Solução Analítica / OLAP
+5. No Amazon DynamoDB, um atributo é _____.
+	*um elemento de dados fundamental
+	uma coleção de itens
+	uma coleção de atributos
+6. Se você está desenvolvendo uma aplicação que requer um banco de dados com performance extremamente rápida, escalabilidade rápida e flexibilidade no esquema do banco de dados, qual serviço você deve considerar ?
+	Amazon Relational Database Service ( Amazon RDS )
+	Amazon ElasticCache
+	*Amazon DynamoDB --destaque para flexibilidade no esquema do banco de dados
+	Amazon Redshift
+7. Qual dos seguintes casos de uso é apropriado par usar o Amazon Relational Database Service ( Amazon RDS ) ?
+	Taxas massivas de leitura/gravação
+	Solicitações GET e PUT simples
+	*Transações complexas
+	Todas as anteriores
+8. Uma empresa tem uma aplicação que consiste em uma camada .NET que se conecta a um banco de dados Mysql.
+Eles querem migrar essa aplicação para a AWS, com alta disponibilidade e backups automáticos. 
+Qual das opções a seguir seria o banco de dados ideal para esse caso de uso ? 
+	Amazon Relational Database Service ( Amazon RDS )
+	*Amazon Aurora -- dicas: mysql, backups automáticos
+	Amazon DynamoDB
+	Amazon Redshift
+9. O Amazon RDS corrige automaticamente o software do banco de dados e faz backup do banco de dados, armazenando os backups por um período de retenção definido pelo usuário e permitindo a recuperação point-in-time.
+	*Verdadeiro -- corrigir = atualizar, backups contém marcação de tempo.
+	Falso
+10. O que você deve considerar ao escolher um tipo de banco de dados ?
+	Tamanho dos dados
+	Período de acesso aos dados
+	Frequência de consulta
+	Alta disponibilidade
+	*Todas as opções anteriores
+--=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- 
+--=X=-- Módulo 9
+--=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- 
+1. Qual das seguintes opções não é uma das quatro áreas do pilar Eficiência de performance do AWS Well-Architectured Framework ?
+	Vantagens e desvantagens
+	Seleção
+	*Rastreabilidade
+	Monitoramento
+2. Qual das opções a seguir é um princípio ao projetar sistemas baseados em núvem ?
+	Criar componentes totalmente acoplados
+	Fazer alterações em lote raras e grandes
+	*Supor que tudo falhará
+	Usar o maior número possível de serviços.
+3. Quais dos seguintes itens são pilares do AWS Well-Architectured Framework ?
+	*Segurança
+	Persistência
+	*Excelência operacional
+	*Otimização de custos
+4. Quais princípios de design são recomendados ao considerar a eficiência da performance ?
+	Combinar a oferta com a demanda
+	Habilitar rastreabilidade
+	*Democratizar tecnologias avançadas
+	*Usar arquiteturas sem servidor
+	Analisar e atribuir despesas
+5. O AWS Trusted Advisor fornece informações sobre quais cinco categorias de uma conta da AWS ?
+	Segurança, controle de acesso, alta disponibilidade, desempenho e limites de serviço
+	Desempenho, otimização de custos, controle de acesso, conectividade, segurança
+	*Desempenho, otimização de custos, segurança, tolerância a falhas, limites de serviço
+	Segurança, tolerância a falhas, alta disponibilidade, conectividade e limites de serviço
+6. O AWS Well-Architectured Framework está organizado em quantos pilares ?
+	3
+	4
+	*5
+	Nenhuma das opções anteriores
+7. Depois de migrar para a Nuvem AWS, você deseja garantir qua as configurações de segurança corretas sejam implementadas.
+Qual ferramenta online pode auxiliar na conformidade com a segurança ?
+	Amazon Kinesis
+	AWS Suport
+	*AWS Trusted Advisor
+	Amazon CloudWatch
+8. Qual opção a seguir é uma medida da capacidade do seu sistema de fornecer uma funcionalidade quando desejado pelo usuário ?
+	Disponibilidade
+	Tolerância a falhas
+	*Confiabilidade
+	Eficiência de performance
+9. Qual destes termos se refere à capacidade de um sistema permanecer operacional, mesmo que alguns dos componentes desse sistema falhem ?
+	Alta durabilidade
+	*Tolerância a falhas
+	Alta disponibilidade
+	Alta durabilidade
+10. Qual das opções a seguir descreve melhor um sistema capaz de resistir a algumas medidas de degradação, passa por tempo de inatividade mínimo e requer intervenção humana mínima ?
+	Escalável
+	Tolerante à falhas
+	Elástico
+	*Altamente Disponível
+--=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- 
+--=X=-- Módulo 10
+--=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- 
+1. Quais das seguintes ferramentas da AWS ajudam sua aplicação a aumentar ou reduzir a escala de acordo com a demanda ?
+	Zonas de disponibilidade
+	*Amazon EC2 Auto Scaling
+	AWS CloudFormation
+	*Elastic Load Balancing
+	AWS Config
+2. Qual serviço você usaria para enviar alertas baseados em alarmes do Amazon CloudWatch ?
+	*Amazon Simple Notification Service ( Amazon SNS )
+	AWS CloudTrail
+	AWS Trusted Advisor
+	Amazon Route 53
+3. Quais das seguintes opções são caracteristicas do Amazon EC2 Auto Scaling ?
+	Compatível somente com escalabilidade dinâmica
+	*Responde a alterações de condições adicionando ou encerrando instâncias
+	Fornece notificações por push
+	*Executa instâncias de uma imagem de máquina da Amazon (AMI)
+	*Impõe um número mínimo de instâncias do Amazon EC2 em execução
+4. Qual das opções a seguir deve ser configurada em um balanceador de carga do Elastic Load Balancing para esperar tráfego de entrada ?
+	Uma porta
+	Uma interface de rede
+	*Um Listener
+	Uma instância
+5. Quais dos seguintes elementos são usados para criar uma configuração de execução do Amazon EC2 Auto Scaling ?
+	*Imagem de máquina da Amazon (AMI)
+	Load Balancer
+	*Tipo de Instância
+	Virtual private cloud(VPC) e sub-redes
+	*Volumes Amazon Elastic Block Store (Amazon EBS)
+6. Quais dos seguintes serviços podem ajudar você a coletar métricas importantes de instâncias do Amazon Relational Database Service (Amazon RDS) e do Amazon Elastic Compute CLoud (Amazon EC2) ?
+	Amazon CloudFront
+	Amazon CloudSearch
+	*Amazon CloudWatch
+	Amazon CloudTrail
+	Amazon EC2 Auto Scaling
+7. Quais das opções a seguir são elementos de um grupo de Auto Scaling ?
+	*Tamanho Mínimo
+	Verificações de integridade
+	*Capacidade Desejada
+	*Tamanho Máximo
+8. Há uma auditoria na sua empresa e ela precisa ter um log de todos os acessos aos recursos da AWS na conta. Quais dos serviços a seguir podem ajudar a fornecer esses detalhes ?
+	Amazon CloudWatch
+	*AWS CloudTrail -- para governança, conformidade, auditoria
+	Amazon Elastic Compute Cloud ( Amazon EC2 )
+	Amazon Simple Notification Service (Amazon SNS)
+9. No Elastic Load Balancing, quando o balanceador de carga detecta um destino não íntegro, quais das seguintes situações são verdadeiras ?
+	*Interrompe o roteamento de tráfego para esse destino
+	Aciona um alerme
+	*Retoma o tráfego de roteamento quando detecta que o destino está íntegro novamente
+	Retoma o tráfego de roteamento quando reiniciado manualmente
+	*Roteia o tráfego para um destino íntegro
+10. Quais são os três tipos de balanceadores de carga oferecidos pelo Elastic Load Balancing ?
+	Internet Load Balancer
+	*Application Load Balancer
+	*Network Load Balancer
+	Compute Load Balancer
+	*Classic Load Balancer
+	Auto Scaling Load Balancer
+--=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- 
+--=X=-- Mais questões
+--=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- --=X=-- 
+
+https://explore.skillbuilder.aws/learn/course/external/view/elearning/134/aws-cloud-practitioner-essentials
+
+https://www.whizlabs.com/learn/course/aws-certified-cloud-practitioner/219/quiz/14695
+
+
+
+
+
+

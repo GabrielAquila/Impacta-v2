@@ -1,0 +1,7 @@
+rds = transaçãoes complexas,  alta durabilidade, e plataforma como serviço, sem personalização disponivel
+
+dynamoDB = banco nao relacional, focado em coleta de documentos, usa chave-valor
+
+redshift = solução em bigdata, facil acesso, consulta em paralelo
+
+aurora = nivel empresarial, compativel com mysql e postgresql, automatiza tarefas demoradas

@@ -1,0 +1,16 @@
+Cite 4 medidas que o Spotify toma para minimizar o impacto de um erro.
+r: usar conteiners de mudanças, assim impactando uma pequena porcentagem de pessoas
+
+Qual é a vantagem de minimizar o impacto de um erro ao invés de impedir a ocorrência de um erro?
+r: assim dar libertade de tentar e errar, sem impactos grander na plataforma toda
+
+Cite uma ou mais medidas que o Spotify toma para aumentar a velocidade de correção de um erro.
+r: liberarem os conteudos para um pequeno grupo de usuarios, assim podendo ver o impacto desejado e arrumar antes.
+Cite uma ou mais medidas que o Spotify toma para evitar manter features não desejáveis na base de código.
+r: antes de implantar algo, ver se e necessario isso, se resolve um problema ou se e inovador antes mesmo de fazer, vendo todas as visoes do cliente antes mesmo de implantar a ideia 
+
+Cite duas medidas (uma da primeira parte do vídeo e uma do segundo, mas se você achar mais, isso é ótimo!) que o Spotify toma para maximizar o “aprendizado institucional” (aumentar o conhecimento e melhorar os processos dentro da empresa).
+r: a base de tudo sao pessoas, deixando elas arriscarem e tentarem, sem sentirem medo de errar, deixando elas livres para concender ideias, aonde elas possam aprender com os erros, alem do hack time
+
+
+video :https://www.youtube.com/watch?v=6nVAOn9rNkc

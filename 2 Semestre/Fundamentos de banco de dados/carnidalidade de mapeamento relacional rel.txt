@@ -1,0 +1,6 @@
+1;1 (tanto faz)(preferencia sempre minimo 1)
+1;n (sempre o 1 pro n)
+n;n( criar uma classe nova com a relação)
+atributo valorado :criar classe(atributo) + ENTIDADE 
+ REPETIR O ATRIBUTO VALORADO + ce da entidade
+atributo composto descartar 

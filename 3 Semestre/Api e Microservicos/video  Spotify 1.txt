@@ -1,0 +1,34 @@
+O que ele quer dizer com “handoff”/“delegação”?
+r: Aonde nao e imposto regras e a responsabilidade e tranferida para squads 
+
+O que ele quer dizer com polinização cruzada?
+r:Nao entedi , seria algo do tipo, todos usam a mesma ferramenta coomo git, para ficar mais facil de se ajudar 
+
+Por quê, segundo o vídeo, um modelo de “self service” é melhor do que um modelo com 
+handoffs/delegação?
+r:por que eles fazem entregas pequenas e frequentimentes
+
+Como sistemas distribuídos ajudam a minimizar handoff/delegação?
+r:
+
+Como sistemas distribuídos ajudam a ideia de polinização cruzada?
+r:
+
+Como sistemas distribuídos ajudam a testar ideias novas?
+r: 
+
+O vídeo fala muito sobre maximizar a autonomia das equipes e minimizar a necessidade de coordenação. Cite 7 práticas encontradas no vídeo que o Spotify implementou para esses fins.
+r: 	Motivante 
+	produçãos melhores 
+	Entragas rapidas 
+	decisoes localmente em equipes 
+	Lideres mostram qual problema deve ser resolvido e por que e a equipe encontra 		 essa solução, com autonomia alinhada 
+	Quanto mais alinhamentos tivemos, mais autonomia podemos dar as equipes 
+
+
+video: https://www.youtube.com/watch?v=hQDblYvY9RY
+  
+Perguntas e duvidas :
+o que significa auto-atendimento minimizado
+trens de entregas 
+ativadores de recursos (seria algo do tipo, vamos disponilizar opcionalmente, assim evitamos erros grandes ? )
