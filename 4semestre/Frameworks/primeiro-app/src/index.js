@@ -3,16 +3,17 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import Cadastro from './Cadastro';
-import CadastroForm from './CadastroForm';
+import Usuario from './Usuario';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
+root.render(  
+  <BrowserRouter>
     <App />
-    <CadastroForm />
+    <Usuario />
     <Cadastro />
-  </React.StrictMode>
+  </BrowserRouter>
 );
 
 // If you want to start measuring performance in your app, pass a function
