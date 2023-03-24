@@ -1,0 +1,45 @@
+/* Estilo do formulário */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  font-weight: bold;
+}
+
+input {
+  margin: 5px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #0077b6;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+button:hover {
+  background-color: #023e8a;
+}
+
+button:active {
+  box-shadow: none;
+}
+
+/* Estilo da div principal */
+.cadastro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
