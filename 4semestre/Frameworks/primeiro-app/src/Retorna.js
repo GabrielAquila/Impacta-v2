@@ -8,8 +8,8 @@ export default function Retorna (){
     return (
         <div>
             {/* <h1>Path: {location.pathname}</h1> */}
-            <h1>Testando</h1>
-            <Link to="/Retorna">retornar a página inicial</Link>
+            <h1>Oie professor, to vendo voce vendo kkk</h1>
+            <Link to="/">retornar a página inicial</Link>
         </div> 
     );
 }
