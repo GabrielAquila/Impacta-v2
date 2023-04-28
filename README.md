@@ -1,2 +1,2 @@
 # FACULDADE-SI
-Tudo que eu aprendo na faculdade
+Tudo que eu aprendo na faculdade / ou tento
