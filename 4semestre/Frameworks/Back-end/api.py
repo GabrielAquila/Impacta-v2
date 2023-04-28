@@ -1,4 +1,4 @@
-from flask import Flask, jsonify,json
+from flask import Flask, jsonify
 
 app= Flask(__name__)
 
@@ -23,7 +23,9 @@ def main():
 
 @app.route('/api/json', methods=['GET'])
 def json_form():
-    return jsonify(data)
+    response = jsonify(data)
+    response.headers.add('Access-Control-Allow-Origin', '*')
+    return response
 
 @app.route('/api/cont', methods=['GET'])
 def cont_json():

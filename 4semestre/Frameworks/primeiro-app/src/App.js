@@ -7,6 +7,7 @@ import Json from './Json';
 import RickAndMortyCharacters from './RickAndMortyCharacters';
 import Joke from './Joke';
 import JsonPost from './JsonPost';
+import ApiFlask from './ApiFlask';
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
     <p><Link to='/RickAndMortyCharacters'>RickAndMortyCharacters</Link></p>
     <p><Link to='/Joke'>Joke</Link></p>
     <p><Link to='/JsonPost'>Json com Post</Link></p>
+    <p><Link to='/ApiFlask'>Chamando api flask</Link></p>
     </header>
     <main>
         <Routes>
@@ -29,6 +31,7 @@ export default function App() {
           <Route path='/RickAndMortyCharacters' element= {<RickAndMortyCharacters/>}/>
           <Route path='/Joke' element= {<Joke/>}/>
           <Route path='/JsonPost' element= {<JsonPost/>}/>
+          <Route path='/ApiFlask' element= {<ApiFlask/>}/>
         </Routes>
       </main></>
 
