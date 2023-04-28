@@ -20,17 +20,16 @@ def main():
             resultado = 'Reprovado'
     
     return render_template('index.html', media=media,resultado=resultado)
-if __name__ == '__main__':
-    app.run(debug=True) # Executa a aplicação
-@app.route('/', methods=['GET'])
-def main():
-    return "meu primeiro site"
-
-
 
 @app.route('/', methods=['GET'])
 def main():
     return "meu primeiro site"
 
-if __name__ == '__main__':
+
+
+@app.route('/', methods=['GET'])
+def main():
+    return "meu primeiro site"
+
+if __name__ == '__main__':  # Executa a aplicação
     app.run(debug=True)
