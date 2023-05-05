@@ -8,21 +8,21 @@ function Form() {
   const [formResponse, setFormResponse] = useState(null);
   const [error, setError] = useState(null);
 
-  const postApiFlask = async () => {
+  const postApiFlask = async (event) => {
+    event.preventDefault();
     const data = {
-    "nome": document.getElementById(nome),
-    "idade": document.getElementById(idade),
-    "ra": document.getElementById(ra)
-};
+      "nome": nome,
+      "idade": idade,
+      "ra": ra
+    };
     try {
       const response = await fetch('http://127.0.0.1:5000/api/create_form', {
         method: 'POST',
         mode: "no-cors",
         headers: {
-          'Access-Control-Allow-Origin': '*',
           'Content-Type': 'application/json',
         },
-        data: JSON.stringify(data),
+        body: JSON.stringify(data),
       });
 
       if (response.status !== 201) {
@@ -53,7 +53,7 @@ function Form() {
           RA:
           <input type="text" value={ra} onChange={(event) => setRa(event.target.value)} />
         </label>
-        <button type="submit" onClick={postApiFlask}>Enviar</button>
+        <button type="submit">Enviar</button>
       </form>
       {formResponse && (
         <div>
