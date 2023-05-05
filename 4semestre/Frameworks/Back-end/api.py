@@ -1,4 +1,6 @@
-from flask import Flask, jsonify
+from flask import Flask, jsonify, request, abort
+import random
+
 
 app= Flask(__name__)
 
@@ -16,6 +18,8 @@ data = [
     }
 ]
 
+identificadores = []
+
 
 @app.route('/api', methods=['GET'])
 def main():
@@ -31,6 +35,24 @@ def json_form():
 def cont_json():
     counter["value"] += 1
     return jsonify(counter)
+
+@app.route('/api/create_form', methods=['POST'])
+def create_form():
+    id = random.randint(1, 101)
+    while id in identificadores:
+        id = random.randint(1, 101)
+    identificadores.append(id)
+    dados = request.get_json(force=True)
+    response = jsonify({'id': id , 'dados': dados}), 201
+    return response
+
+@app.route('/api/create_client', methods=['POST'])
+def create():
+    json_request = request.get_json(force=True)
+    jsonReturn = {'id' : json_request['id'] , 'nome':json_request['nome'], 'Cadastro':'Cadastro realizado com sucesso'}
+    response = jsonify(jsonReturn), 200
+    return response
+
 
 if __name__ == '__main__':
     app.run(debug=True)

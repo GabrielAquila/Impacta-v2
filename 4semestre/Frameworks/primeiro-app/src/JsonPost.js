@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-function PostForm() {
+function Postjson() {
   const [title, setTitle] = useState('');
   const [body, setBody] = useState('');
   const [userId, setUserId] = useState('');
@@ -61,4 +61,4 @@ function PostForm() {
   );
 }
 
-export default PostForm;
+export default Postjson;

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-export default function Alunos(){
+export default function JsonReturn(){
 
     const [users, setUsers] = useState();
 
@@ -25,8 +25,5 @@ return (
   </div>
 ))}
 </div>
-
-
-
    );
 }

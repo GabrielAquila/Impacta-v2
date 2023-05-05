@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-export default function Retorna (){
+export default function retorna (){
     // const location = useLocation();
     // const history = useHistory();
     // const { id } = useParams();
