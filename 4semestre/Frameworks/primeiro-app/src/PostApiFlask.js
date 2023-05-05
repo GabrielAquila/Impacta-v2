@@ -18,15 +18,17 @@ function Form() {
     try {
       const response = await fetch('http://127.0.0.1:5000/api/create_form', {
         method: 'POST',
-        mode: "no-cors",
+        body: JSON.stringify(data),
+        mode: 'no-cors',
         headers: {
+          'Access-Control-Allow-Origin': '*',
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify(data),
       });
 
-      if (response.status !== 201) {
-        throw new Error('Falhou meu jovem');
+      if (response !== 201) {
+        const errorData = await response.json();
+        throw new Error(errorData.message || 'Erro desconhecido');
       }
 
       const responseData = await response.json();
@@ -34,7 +36,7 @@ function Form() {
       setFormResponse(responseData);
       setError(null);
     } catch (err) {
-      setError('Falhou meu jovem');
+      setError(err.message || 'Erro desconhecido');
     }
   };
 
@@ -53,14 +55,14 @@ function Form() {
           RA:
           <input type="text" value={ra} onChange={(event) => setRa(event.target.value)} />
         </label>
-        <button type="submit">Enviar</button>
+        <button type="submit" className="btn btn-warning">Enviar</button>
       </form>
       {formResponse && (
         <div>
           <p>ID: {formResponse.id}</p>
-          <p>Nome: {formResponse.dados.nome}</p>
-          <p>Idade: {formResponse.dados.idade}</p>
-          <p>RA: {formResponse.dados.ra}</p>
+          <p>Nome: {formResponse.nome}</p>
+          <p>Idade: {formResponse.idade}</p>
+          <p>RA: {formResponse.ra}</p>
         </div>
       )}
       {error && (
