@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import axios from 'axios';
 
 function Form() {
   const [nome, setNome] = useState('');
@@ -8,6 +9,15 @@ function Form() {
   const [formResponse, setFormResponse] = useState(null);
   const [error, setError] = useState(null);
 
+  useEffect(() => {
+    if (formResponse) {
+      setNome(formResponse.dados.nome);
+      setIdade(formResponse.dados.idade);
+      setRa(formResponse.dados.ra);
+      setId(formResponse.id);
+    }
+  }, [formResponse]);
+
   const postApiFlask = async (event) => {
     event.preventDefault();
     const data = {
@@ -16,26 +26,12 @@ function Form() {
       "ra": ra
     };
     try {
-      const response = await fetch('http://127.0.0.1:5000/api/create_form', {
-        method: 'POST',
-        body: JSON.stringify(data),
-        mode: 'no-cors',
-        headers: {
-          'Access-Control-Allow-Origin': '*',
-          'Content-Type': 'application/json',
-        },
-      });
+      const response = await axios.post('http://127.0.0.1:5000/api/create_form', data);
 
-      if (response !== 201) {
-        const errorData = await response.json();
-        throw new Error(errorData.message || 'Erro desconhecido');
-      }
-
-      const responseData = await response.json();
-      setId(responseData.id);
+      const responseData = response.data;
       setFormResponse(responseData);
       setError(null);
-    } catch (err) {
+    } catch (err) { 
       setError(err.message || 'Erro desconhecido');
     }
   };
@@ -60,9 +56,9 @@ function Form() {
       {formResponse && (
         <div>
           <p>ID: {formResponse.id}</p>
-          <p>Nome: {formResponse.nome}</p>
-          <p>Idade: {formResponse.idade}</p>
-          <p>RA: {formResponse.ra}</p>
+          <p>Nome: {formResponse.dados.nome}</p>
+          <p>Idade: {formResponse.dados.idade}</p>
+          <p>RA: {formResponse.dados.ra}</p>
         </div>
       )}
       {error && (

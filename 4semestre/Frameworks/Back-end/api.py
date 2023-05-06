@@ -1,8 +1,10 @@
-from flask import Flask, jsonify, request, abort
+from flask import Flask, jsonify, request
+from flask_cors import CORS
 import random
 
-
 app= Flask(__name__)
+CORS(app)
+
 
 counter = {"value":0}
 data = [
@@ -43,8 +45,9 @@ def create_form():
         id = random.randint(1, 101)
     identificadores.append(id)
     dados = request.get_json(force=True)
-    response = jsonify({'id': id , 'dados': dados}), 201
-    return response
+    response = jsonify({'id': id , 'dados': dados})
+    response.headers.add('Access-Control-Allow-Origin', '*')
+    return response, 201
 
 @app.route('/api/create_client', methods=['POST'])
 def create():
