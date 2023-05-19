@@ -1,8 +1,10 @@
-from flask import Flask, jsonify, request
+from flask import Flask, jsonify, request,json
 from flask_cors import CORS
+import mysql.connector
 import random
 
 app= Flask(__name__)
+bancoDeDados = mysql.connector.connect(host="localhost",user="root",password="senha123",database="my_database")
 CORS(app)
 
 
@@ -56,15 +58,29 @@ def create():
     response = jsonify(jsonReturn), 200
     return response
 
-# @app.route('/api/get_client', methods=['POST'])
-# def ger_bank():
-#     database = mysql.connect 
-#     response = ''
-#     response.headers.add('Access-Control-Allow-Origin', '*')
-#     return response, 201
 
+@app.route('/api/consult_client', methods=['GET'])
+def get_client():
+    selectAllSql = f"select * from tb_client"
+    cursor = bancoDeDados.cursor()
+    cursor.execute(selectAllSql)
+    resultado = cursor.fetchall()
 
+    return jsonify(resultado)
 
+@app.route('/api/include_client', methods=['POST'])
+def create_client():
+    data = json.loads(request.data)
+    nome = data.get("nome", None)
+    email = data.get("email", None)
+    telefone = data.get("telefone", None)
+    query = "INSERT INTO tb_client (nome, email,telefone) VALUES (%s, %s, %s)"
+    val = (nome, email, telefone)
+    cursor = bancoDeDados.cursor()
+    cursor.execute(query, val)
+    bancoDeDados.commit()
+    
+    return 'Cliente criado com sucesso!',201
 
 if __name__ == '__main__':
     app.run(debug=True)
