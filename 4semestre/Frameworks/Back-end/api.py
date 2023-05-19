@@ -56,6 +56,15 @@ def create():
     response = jsonify(jsonReturn), 200
     return response
 
+# @app.route('/api/get_client', methods=['POST'])
+# def ger_bank():
+#     database = mysql.connect 
+#     response = ''
+#     response.headers.add('Access-Control-Allow-Origin', '*')
+#     return response, 201
+
+
+
 
 if __name__ == '__main__':
     app.run(debug=True)
